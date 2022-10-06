@@ -79,3 +79,26 @@ body{
 .task{
   font-family: 'Raleway', sans-serif;
 }
+
+p{
+  color:blue;
+}
+h2{
+  color:grey;
+}
+/*Fiona gave me this. I only needed to describe all paragraphs and color them blue.*/
+.todolist1{
+  background-color: lightgrey;
+  border-radius: 10%;
+  display: grid;
+  grid-template-rows: 50px 2fr 2fr 2fr;
+  justify-content: center;
+  border-style: solid;
+  border-width: 10px;
+}
+/*I created a new grid since the first one could only hold 3, changing the name slightly and the template rows to 2.*/
+#upcoming{
+  grid-column: 3/span 1;
+  border-color: #F7BC7F;
+}
+/*I started the new section at the center "3." This is an id that is used in in the last box.*/
